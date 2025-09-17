@@ -1,0 +1,17 @@
+/* Descendant selector for the table caption */
+table caption {
+  text-transform: uppercase;
+  background-color: var(--table-color);
+  color: white;
+  padding: 10px;
+}
+
+/* Pseudo-class selector for zebra striping */
+tr:nth-child(even) {
+  background-color: var(--row-bg-color);
+}
+
+/* Bonus: hover effect on table rows */
+tr:hover {
+  background-color: lightyellow;
+}
